@@ -28,4 +28,4 @@ jobs:
       - name: Build with Maven Wrapper
         run: ./mvnw -B package
       - name: UP LOAD
-      run: curl -v -u ${{ secrets.SONATYPE_USER }}:${{ secrets.SONATYPE_PASS }} --upload-file target/spring-petclinic-3.1.0-SNAPSHOT.jar http://192.168.2.152/:8081/repository/maven-releases/spring-petclinic-3.1.0-SNAPSHOT.jar 
+        run: curl -v -u ${{ secrets.SONATYPE_USER }}:${{ secrets.SONATYPE_PASS }} --upload-file target/spring-petclinic-3.1.0-SNAPSHOT.jar http://192.168.2.152/:8081/repository/maven-releases/spring-petclinic-3.1.0-SNAPSHOT.jar 
