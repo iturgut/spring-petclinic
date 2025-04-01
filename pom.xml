@@ -266,7 +266,7 @@
     <repository>
       <id>maven-releases</id>
       <name>Local Nexus Repository</name>
-      <url>http://localhost:8081/repository/maven-public/</url>
+      <url>https://cd9d-2603-3006-0-7500-169-2830-bdd9-e89b.ngrok-free.app/#browse/browse:maven-releases</url>
       <releases>
         <enabled>true</enabled>
       </releases>
@@ -316,12 +316,12 @@
     <repository>
       <id>maven-releases</id>
       <name>Nexus Releases</name>
-      <url>http://localhost:8081/repository/maven-releases/</url>
+      <url>https://cd9d-2603-3006-0-7500-169-2830-bdd9-e89b.ngrok-free.app/#browse/browse:maven-releases</url>
     </repository>
     <snapshotRepository>
       <id>maven-snapshots</id>
       <name>Nexus Snapshots</name>
-      <url>http://localhost:8081/repository/maven-snapshots/</url>
+      <url>https://cd9d-2603-3006-0-7500-169-2830-bdd9-e89b.ngrok-free.app/#browse/browse:maven-snapshots</url>
     </snapshotRepository>
   </distributionManagement>
 
